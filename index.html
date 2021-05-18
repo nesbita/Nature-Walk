@@ -11,6 +11,7 @@
 <body>
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>    
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
   <!-- opening div for entire slideshow     -->
   <div class="Slideshow" id="test">
     <div class="iSlide gSlide">  
@@ -34,10 +35,54 @@
     </div> 
 
     <div class="slide1 gSlide">
+      <!-- card for bullsnake -->
+      <div class="card1">
+        <div class="card1_inner">
+        <div class="card1_front">
+          <img src="Bullsnake.jpeg" class="snakes"/>  
+        </div>  
+        <div class="card1_back">
+        <p>CORRECT!  
+          <br>The bullsnake, while harmless, 
+          looks similar to the rattlesnake 
+          <br>at first glace, and even shakes 
+          <br>its tail in an effort to mimic it.
+          <br>You get a point!</p>  
+        </div>
+        </div>
+      </div>
+      <!-- card for rattlesnake -->
+      <div class="card1">
+        <div class="card1_inner">
+        <div class="card1_front">
+          <img src="Rattlesnake.jpeg" class="snakes"/>   
+        </div>  
+        <div class="card1_back">
+        <p>WRONG!  The rattlesnake should be
+          <br>avoided if you don't want a  
+          <br>pricey trip to the hospital!
+          <br>You lose a point.</p>  
+        </div>
+        </div>
+      </div>
       <div class="sNumber">1/10</div> 
-       <img src="Bullsnake.jpeg" class="snakes" /> 
-       <img src="Rattlesnake.jpeg" class="snakes"/>     
+     
     </div>
+
+    <!-- <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src=#snake1 />
+      </div>  
+      <div class="card1_back">
+      <p>CORRECT!  
+        <br>The bullsnake, while harmless, 
+        looks similar to the rattlesnake 
+        <br>at first glace, and even shakes 
+        <br>its tail in an effort to mimic it.</p>  
+      </div>
+      </div>
+    </div> -->
 
     <div class="slide2 gSlide">
       <div class="sNumber">2/10</div>
@@ -97,12 +142,6 @@
   <div class="fSlide gSlide">
       <img src="Title_Slide.jpeg" style="width: 100%"/>
   </div> 
-
-  <div class="wrong_choice_back">
-   <p>WRONG</p>
-   <p>You lose a point!</p>
-  </div> 
-
 </div>
 
 <script src="script.js"></script>  

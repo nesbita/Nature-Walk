@@ -1,4 +1,4 @@
-// let .btn = startBtn
+
 // let iSlide = homeScreen
 
 let slideIndex = 1;
@@ -31,8 +31,8 @@ function showSlides(n) {
     // setTimeout (showSlides, 2000);
     }
 
-// btn.addEventListener("click"), () => {
-//     iSlide.style.display="block"
+// startBtn.addEventListener("click"), () => {
+//     iSlide.style.display="block"}
 
 
 

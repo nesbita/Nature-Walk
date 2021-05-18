@@ -56,18 +56,18 @@
     backdrop-filter: blur(50px);
     max-width: 1000px;
     min-height: 475px;
+    position: relative; 
+    margin: auto; 
+    background-size: cover;
     position: relative;
-    margin: auto;
-    /* background-size: cover;
-    position: relative;
-    height: 450px; */
+    height: 450px; 
     }
         
 .snakes {
-      height: 300px;
-      width: 300px;
-      transform: translate(35%, 25%);
-      margin-right: 175px;
+      height: 100%;
+      width: 100%;
+      /* transform: translate(35%, 25%);  */
+      /* margin-right: 175px; */
       border-radius: 25px;
       border: 2px solid black;
     }      
@@ -294,13 +294,48 @@
   top: 0;
 }
 
-
-
-.cardBacks{
-  background-color: dark grey;
-  color: white;
-  transform: rotateY(180deg);
+.card1 {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  /* border: 1px solid #f1f1f1;  */
+  perspective: 1000px;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 95px;
+  margin-right: 100px;
 }
+
+.card1_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .card1:hover .card1_inner {
+    transform: rotateY(180deg);
+  }  
+
+  .card1_front, .card1_back {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; 
+    backface-visibility: hidden; 
+  }
+
+  /* .card1_front {
+  } */
+
+  .card1_back {
+    background-color: darkgrey;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
 
 /* .wrong_choice_back{
 
