@@ -1,9 +1,17 @@
+// let .btn = startBtn
+// let iSlide = homeScreen
+
 let slideIndex = 1;
 
 showSlides(slideIndex);
 
+const test = document.getElementById("test");
+test.addEventListener("click", (e)=> {
+console.log(e.target.id)
+})
+
 function plusSlides(n) {
-    showSlides(slideIndex=n)
+    showSlides(slideIndex +=n)
 }
 
 function showSlides(n) {
@@ -14,15 +22,19 @@ function showSlides(n) {
 // console.log("ARRAY OF SLIDES", slideArray)
     if (n > slides.length) {slideIndex=1}
     if (n < 1) {slideIndex=slides.length}
-    for (let i=0; i < slides.length; i++) 
-    {
-        // console.log("SLIDES AT I", slides[i])
-        // slides[i].style.display="none"; 
+    for (let i=0; i < slides.length; i++) {
+        slides[i].style.display="none";
     }
+        // console.log("SLIDES AT I", slides[i])
     
     slides[slideIndex-1].style.display = "block";
     // setTimeout (showSlides, 2000);
     }
+
+// btn.addEventListener("click"), () => {
+//     iSlide.style.display="block"
+
+
 
 
 // let slides=document.getElementsByClassName("gSlide")
