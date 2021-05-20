@@ -84,10 +84,10 @@
 }    
 
 .trees {
-      height: 300px;
-      width: 300px;
-      transform: translate(35%, 25%);
-      margin-right: 175px;
+      height: 100%;
+      width: 100%;
+      /* transform: translate(35%, 25%);
+      margin-right: 175px; */
       border-radius: 25px;
       border: 2px solid black;
 }
@@ -103,10 +103,10 @@
 }
 
 .frogs {
-  height: 300px;
-  width: 300px;
-  transform: translate(35%, 25%);
-  margin-right: 175px;
+  height: 100%;
+  width: 100%;
+  /* transform: translate(35%, 25%);
+  margin-right: 175px; */
   border-radius: 25px;
   border: 2px solid black;
 }
@@ -120,10 +120,10 @@
 }
 
 .umbellifers{
-  height: 300px;
-  width: 300px;
-  transform: translate(35%, 25%);
-  margin-right: 175px;
+  height: 100%;
+  width: 100%;
+  /* transform: translate(35%, 25%);
+  margin-right: 175px; */
   border-radius: 25px;
   border: 2px solid black;
 }
@@ -139,10 +139,10 @@
 }
 
 .flies {
-  height: 300px;
-  width: 300px;
-  transform: translate(35%, 25%);
-  margin-right: 175px;
+  height: 100%;
+  width: 100%;
+  /* transform: translate(35%, 25%);
+  margin-right: 175px; */
   border-radius: 25px;
   border: 2px solid black;
 }
@@ -158,10 +158,10 @@
 }
 
 .flowers {
-  height: 300px;
-  width: 300px;
-  transform: translate(35%, 25%);
-  margin-right: 175px;
+  height: 100%;
+  width: 100%;
+  /* transform: translate(35%, 25%);
+  margin-right: 175px; */
   border-radius: 25px;
   border: 2px solid black;
 }
@@ -177,10 +177,10 @@
 }
 
 .beetles {
-  height: 300px;
-  width: 300px;
-  transform: translate(35%, 25%);
-  margin-right: 175px;
+  height: 100%;
+  width: 100%;
+  /* transform: translate(35%, 25%);
+  margin-right: 175px; */
   border-radius: 25px;
   border: 2px solid black;
 }
@@ -197,10 +197,10 @@
 }
 
 .droops {
-  height: 300px;
-  width: 300px;
-  transform: translate(35%, 25%);
-  margin-right: 175px;
+  height: 100%;
+  width: 100%;
+  /* transform: translate(35%, 25%);
+  margin-right: 175px; */
   border-radius: 25px;
   border: 2px solid black;
 }
@@ -216,10 +216,10 @@
 }
 
 .stars {
-  height: 300px;
-  width: 300px;
-  transform: translate(35%, 25%);
-  margin-right: 175px;
+  height: 100%;
+  width: 100%;
+  /* transform: translate(35%, 25%);
+  margin-right: 175px; */
   border-radius: 25px;
   border: 2px solid black;
 }
@@ -235,10 +235,10 @@
 }
 
 .snails {
-  height: 300px;
-  width: 300px;
-  transform: translate(35%, 25%);
-  margin-right: 175px;
+  height: 100%;
+  width: 100%;
+  /* transform: translate(35%, 25%);
+  margin-right: 175px; */
   border-radius: 25px;
   border: 2px solid black;
 }

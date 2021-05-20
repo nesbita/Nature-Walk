@@ -18,14 +18,14 @@
        <h1>Nature Walk</h1>
        <img src="Title_Slide.jpeg" style="width:100%"/>
 
-    <div class=btn>
+    <div class="btn">
        <button>Play Game</button>
     </div>
   </div>
 
     <div class="howToSlide gSlide"> 
        <img src="Title_Slide.jpeg" style="width:100%"/>
-       <h2 id = "Instructions">Instructions</h2>
+       <h2 id="Instructions">Instructions</h2>
        <h3>You've been stuck inside for a long time and need to get out and go on an adventure! 
        <br> 
        Along the way, you'll encounter some plants and wildlife.  Pick the ones that are safe 
@@ -34,17 +34,27 @@
        </h3>
     </div> 
 
+    <div class="Scenario gSlide"> 
+      <h2 id="Instructions">Instructions</h2>
+      <h3>You've been stuck inside for a long time and need to get out and go on an adventure! 
+      <br> 
+      Along the way, you'll encounter some plants and wildlife.  Pick the ones that are safe 
+      <br>
+      for you to interact with in order to win points!    
+      </h3>
+   </div> 
+
     <div class="slide1 gSlide">
       <!-- card for bullsnake -->
       <div class="card1">
         <div class="card1_inner">
         <div class="card1_front">
-          <img src="Bullsnake.jpeg" class="snakes"/>  
+          <img src="Bullsnake.jpeg" class="snakes" id="snake1"/>  
         </div>  
         <div class="card1_back">
         <p>CORRECT!  
           <br>The bullsnake, while harmless, 
-          looks similar to the rattlesnake 
+          <br>looks similar to the rattlesnake 
           <br>at first glace, and even shakes 
           <br>its tail in an effort to mimic it.
           <br>You get a point!</p>  
@@ -55,7 +65,7 @@
       <div class="card1">
         <div class="card1_inner">
         <div class="card1_front">
-          <img src="Rattlesnake.jpeg" class="snakes"/>   
+          <img src="Rattlesnake.jpeg" class="snakes" id="snake2"/>   
         </div>  
         <div class="card1_back">
         <p>WRONG!  The rattlesnake should be
@@ -66,76 +76,322 @@
         </div>
       </div>
       <div class="sNumber">1/10</div> 
-     
     </div>
 
-    <!-- <div class="card1">
-      <div class="card1_inner">
-      <div class="card1_front">
-        <img src=#snake1 />
-      </div>  
-      <div class="card1_back">
-      <p>CORRECT!  
-        <br>The bullsnake, while harmless, 
-        looks similar to the rattlesnake 
-        <br>at first glace, and even shakes 
-        <br>its tail in an effort to mimic it.</p>  
-      </div>
-      </div>
-    </div> -->
-
+    <div class="Scenario gSlide"> 
+      <img src="Title_Slide.jpeg" style="width:100%"/>
+      <h2 id = "Instructions">Instructions</h2>
+      <h3>You've been stuck inside for a long time and need to get out and go on an adventure! 
+      <br> 
+      Along the way, you'll encounter some plants and wildlife.  Pick the ones that are safe 
+      <br>
+      for you to interact with in order to win points!    
+      </h3>
+   </div> 
     <div class="slide2 gSlide">
+      <!-- card for gympie -->
+      <div class="card1">
+        <div class="card1_inner">
+        <div class="card1_front">
+          <img src="Gympie_Gympie.jpeg" class="trees" id="tree1"/> 
+        </div>  
+        <div class="card1_back">
+        <p>WRONG!  
+          <br>The gympie gympie plant may
+          <br>look harmless, but it contains 
+          <br>bristles that have reportedly
+          <br>led people to commit suicide.
+          <br>You lose a point, and your rash
+          <br>may take up to a year to heal 🤕 </p>  
+        </div>
+        </div>
+      </div>
+      <!-- card for poplar -->
+      <div class="card1">
+        <div class="card1_inner">
+        <div class="card1_front">
+          <img src="Black_Poplar.jpeg" class="trees" id="tree2" />  
+        </div>  
+        <div class="card1_back">
+        <p>CORRECT!  
+          <br>The black poplar tree is a safe
+          <br>choice to stand under for a quick
+          <br>escape.  You gain a point!</p>  
+        </div>
+        </div>
+      </div>
       <div class="sNumber">2/10</div>
-       <img src="Gympie_Gympie.jpeg" class="trees" />
-       <img src="Black_Poplar.jpeg" class="trees" />
     </div>     
   
-    <div class="slide3 gSlide">
+  <div class="slide3 gSlide">
+      <!-- card for imitator -->
+      <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="R. imitator.jpeg" class="frogs" id="frog1"/>
+      </div>  
+      <div class="card1_back">
+      <p>CORRECT!
+        <br>The mimic poison frog mimics the
+        <br>look of poison dart frogs to avoid
+        <br>predation.  In the wild, it is still 
+        <br>mildly toxic, but you still get a point!</p>  
+      </div>
+      </div>
+    </div>
+    <!-- card for poison frog  -->
+      <div class="card1">
+        <div class="card1_inner">
+        <div class="card1_front">
+          <img src="Poison_Dart_Frog.jpeg" class="frogs" id="frog2"/>
+        </div>  
+        <div class="card1_back">
+        <p>WRONG! 
+          <br>The poison dart frog has fatal 
+          <br>amounts of poison in the form 
+          <br>alkaloid toxins.</p>  
+        </div>
+        </div>
+      </div>
       <div class="sNumber">3/10</div>
-       <img src="R. imitator.jpeg" class="frogs" />
-       <img src="Poison_Dart_Frog.jpeg" class="frogs" />
     </div> 
 
   <div class="slide4 gSlide">
-      <div class="sNumber">4/10</div>
-       <img src="Queen_Annes_Lace.jpeg" class="umbellifers" />
-       <img src="Water_Hemlock.jpeg" class="umbellifers" />
-  </div> 
+     <!-- card for QAL  -->
+     <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Queen_Annes_Lace.jpeg" class="umbellifers" id="umbellifer1"/>
+      </div>  
+      <div class="card1_back">
+      <p>CORRECT!
+        <br>Queen Anne's Lace is harmless but 
+        <br>has many lookalikes that the same
+        <br>cannot be said for.  One point for you!</p>  
+      </div>
+      </div>
+    </div>
+  
+      <!-- card for water hemlock  -->
+      <div class="card1">
+        <div class="card1_inner">
+        <div class="card1_front">
+          <img src="Water_Hemlock.jpeg" class="umbellifers" id="umbellifers2"/>
+        </div>  
+        <div class="card1_back">
+        <p>WRONG!
+          <br>Like wild parsley and carrots, water
+          <br>hemlock looks a lot like queen anne's lace.
+          <br>However, it is often fatal to the people
+          <br>and animals that eat it. You're lucky all you
+          <br>lost was a point!</p>  
+        </div>
+        </div>
+      </div>
+        <div class="sNumber">4/10</div>
+    </div>
 
   <div class="slide5 gSlide">
+    <!-- card for tsetse -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Tsetse_Fly.jpeg" class="flies" id="fly1"/>
+      </div>  
+      <div class="card1_back">
+      <p>WRONG!
+        <br>The tsetse fly is responsible for millions 
+        <br>of deaths and is the vector for the parasite
+        <br>that causes trypanosomiasis, also known as 
+        <br>sleeping sickness.  You lose a point.</p>  
+      </div>
+      </div>
+    </div>
+    <!-- card for housefly  -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="House_Fly.jpeg" class="flies" id="fly2"/>
+      </div>  
+      <div class="card1_back">
+      <p>CORRECT!
+        <br>The common house fly is gross and carries
+        <br>many germs, but it is generally safe enough
+        <br>to encounter.  You gain a point.</p>  
+      </div>
+      </div>
+    </div>
       <div class="sNumber">5/10</div>
-       <img src="Tsetse_Fly.jpeg" class="flies" />
-       <img src="House_Fly.jpeg" class="flies" />
   </div> 
 
   <div class="slide6 gSlide">
+    <!-- card for poppy  -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Island_Bush_Poppy.jpeg" class="flowers" id="flower1"/>
+      </div>  
+      <div class="card1_back">
+      <p>CORRECT!
+        <br>The bush island poppy poses no threat.  You've
+        <br>got another point!</p>  
+      </div>
+      </div>
+    </div>
+    <!-- card for oleander -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Oleander.jpeg" class="flowers" id="flower2"/>
+      </div>  
+      <div class="card1_back">
+      <p>WRONG!
+        <br>The oleander is notoriously dangerous. It's 
+        <br>best to avoid this plant, no matter how
+        <br>pretty it is.</p>  
+      </div>
+      </div>
+    </div>
       <div class="sNumber">6/10</div>
-       <img src="Island_Bush_Poppy.jpeg" class="flowers" />
-       <img src="Oleander.jpeg" class="flowers" />
   </div> 
 
   <div class="slide7 gSlide">
+    <!-- card for Spanish fly -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Spanish_Fly.jpeg" class="beetles" id="beetle1"/>
+      </div>  
+      <div class="card1_back">
+      <p>WRONG!
+        <br>The Spanish fly secretes the toxin 
+        <br>cantharidin which will either burn or 
+        <br>kill those who come into contact with it.  
+        <br>You lose a point and are reminded not to 
+        <br>touch shiny objects.  
+        </p>  
+      </div>
+      </div>
+    </div>
+    <!-- card for tansy beetle -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Tansy_Beetle.jpeg" class="beetles" id="beetle2"/>
+      </div>  
+      <div class="card1_back">
+      <p>CORRECT!
+        <br>The tansy beetle is happier eating 
+        <br>tansy than going around burning things.
+        <br>Collect another point!</p> 
+      </div>
+      </div>
+    </div>
       <div class="sNumber">7/10</div>
-       <img src="Spanish_Fly.jpeg" class="beetles" />
-       <img src="Tansy_Beetle.jpeg" class="beetles" />
   </div> 
   
   <div class="slide8 gSlide">
-      <div class="sNumber">9/10</div>
-       <img src="Fetterbush.jpeg" class="droops" />
-       <img src="Lily_of_the_Valley.jpeg" class="droops" />
-  </div> 
+    <!-- card for fetterbush -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Fetterbush.jpeg" class="droops" id="droops1"/>
+      </div>  
+      <div class="card1_back">
+      <p>CORRECT!
+        <br>The fetterbush looks funny, but is safe!
+        <br>Collect a point!</p>  
+      </div>
+      </div>
+    </div>
+    <!-- card for lily of the valley -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Lily_of_the_Valley.jpeg" class="droops" id="droops2"/>
+      </div>  
+      <div class="card1_back">
+      <p>WRONG!
+        <br>The Lily of the Valley has many toxic cardiac
+        <br>glycosides and should not be consumed.  Best to 
+        <br>stay away from the plant and any animals that may 
+        <br>have eaten it, even though it is in the asparagus 
+        <br>family!  You lose a point.</p>  
+      </div>
+      </div>
+      </div>
+      <div class="sNumber">8/10</div>
+    </div>
 
   <div class="slide9 gSlide">
+    <!-- card for common star  -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Common_Starfish.jpg" class="stars" id="star1"/>
+      </div>  
+      <div class="card1_back">
+      <p>CORRECT!
+        <br>The common starfish is unlikely to harm 
+        <br>you.  Collect a point!</p>  
+      </div>
+      </div>
+    </div>
+    <!-- card for comb star  -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Comb_Star.jpeg" class="stars" id="star2"/>
+      </div>  
+      <div class="card1_back">
+      <p>WRONG!
+        <br>The comb star has tetrodotoxin, a neurotoxin
+        <br>found in several aquatic species.  This toxin 
+        <br>normally causes death by means of respiratory 
+        <br>failure in those who have been exposed to a 
+        <br>high enough amount of it.  You lose a point.</p>  
+      </div>
+      </div>
+  </div> 
       <div class="sNumber">9/10</div>
-       <img src="Common_Starfish.jpg" class="stars" />
-       <img src="Comb_Star.jpeg" class="stars" />
   </div> 
 
   <div class="slide10 gSlide">
+    <!-- card for cone snail  -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Geography_Cone_Snail.jpeg" class="snails" id="snail1"/>
+      </div>  
+      <div class="card1_back">
+      <p>WRONG!
+        <br>The geography cone snail is the most 
+        <br>toxic of the cone snails, 
+        <br>kill those who come into contact with it.  
+        <br>You lose a point and are reminded not to 
+        <br>touch shiny objects.  
+        </p>  
+      </div>
+      </div>
+    </div>
+    <!-- card for whelk -->
+    <div class="card1">
+      <div class="card1_inner">
+      <div class="card1_front">
+        <img src="Common_Whelk.jpeg" class="snails" id="snail2"/>
+      </div>  
+      <div class="card1_back">
+      <p>WRONG!
+        <br>The Spanish fly secretes the toxin 
+        <br>cantharidin which will either burn or 
+        <br>kill those who come into contact with it.  
+        <br>You lose a point and are reminded not to 
+        <br>touch shiny objects.  
+        </p>  
+      </div>
+      </div>
+    </div>
       <div class="sNumber">10/10</div>
-       <img src="Geography_Cone_Snail.jpeg" class="snails" />
-       <img src="Common_Whelk.jpeg" class="snails" />
   </div> 
 
       <!-- final slide  -->
@@ -143,6 +399,8 @@
       <img src="Title_Slide.jpeg" style="width: 100%"/>
   </div> 
 </div>
+
+<progress id="Health" value="100" max="100"></progress>
 
 <script src="script.js"></script>  
 </body>
