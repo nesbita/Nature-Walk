@@ -1,5 +1,6 @@
-let points = 0
+
 let slideIndex = 1;
+
 
 
 showSlides(slideIndex);
@@ -34,7 +35,11 @@ function showSlides(n) {
      
     function addHealth() {
         health.value +=10;
+        correctContainer1.firstElementChild.style.transform="rotateY(180deg) scale(-1, 1)"
         console.log("hit", health.value)
+        correctContainer1.style.transform="rotateY(180deg)"
+        console.log(correctContainer1.firstElementChild)
+        console.log(correctContainer1)
     }
 
     function subtractHealth() {   
@@ -42,14 +47,27 @@ function showSlides(n) {
              alert("Game Over") 
         }
         health.value -=10;
+        wrongContainer1.firstElementChild.style.transform="rotateY(180deg) scale(-1, 1)"
         console.log("hitSubtract", health.value)
+        wrongContainer1.style.transform="rotateY(180deg)"
     }
 
     // event listener for slide one
-let correctContainer1=document.getElementById("snake1");
-correctContainer1.addEventListener("mouseover", addHealth);
-let wrongContainer1=document.getElementById("snake2");
-wrongContainer1.addEventListener("mouseover", subtractHealth);
+let correctContainer1=document.getElementById("card1");
+correctContainer1.addEventListener("click", addHealth);
+let wrongContainer1=document.getElementById("card2");
+wrongContainer1.addEventListener("click", subtractHealth);
+
+// function clickCard(event) {
+//     let cardClicked = event.target
+//         if (cardClicked.classList.contains("snakes"))
+//         e.target.removeEventListener("mouseover", clickCard)
+
+
+// let cardClicked = event.target
+
+// event.target.classList.add("snake1")
+// event.target.classList.add("noClick")
 
 // event listener for slide two
 let wrongContainer2=document.getElementById("tree1");

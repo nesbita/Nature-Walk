@@ -273,8 +273,6 @@
   background-color: rgba(0,0,0,0.8);
 }
 
-
-
 /* Caption text
 .text {
   color: #f2f2f2;
@@ -294,7 +292,7 @@
   top: 0;
 }
 
-.card1 {
+.card {
   background-color: transparent;
   width: 300px;
   height: 300px;
@@ -306,7 +304,7 @@
   margin-right: 100px;
 }
 
-.card1_inner {
+.card_inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -315,11 +313,11 @@
     transform-style: preserve-3d;
   }
 
-  .card1:hover .card1_inner {
+   /* .card_inner{
     transform: rotateY(180deg);
-  }  
+  }   */
 
-  .card1_front, .card1_back {
+  .card_front, .card_back {
     position: absolute; 
     width: 100%;
     height: 100%;
@@ -327,24 +325,18 @@
     backface-visibility: hidden; 
   }
 
-  /* .card1_front {
-  } */
-
-  .card1_back {
+  .card_back {
     background-color: darkgrey;
     color: white;
     transform: rotateY(180deg);
   }
 
-
-/* .wrong_choice_back{
-
-} */
-/* .gravel {
-  z-index: 1;
-} */
-
-
+  .Scenario {
+    background-color: yellow;
+    color: plum;
+    /* display: flex;
+    justify-content: center; */
+  }
 
 /* The dots/bullets/indicators
 .dot {
