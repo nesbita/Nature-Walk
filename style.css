@@ -38,17 +38,19 @@
     font-size: 28px;
     font-weight: bolder;
     position: absolute;
-    top: 40%;
+    top: 10%;
     right: 45%;
+
   }
 
   h3{
     color: plum;
     word-wrap: normal;
     position: absolute;
-    top: 45%;
+    top: 35%;
     right: 15%;
     font-weight: bolder;
+    padding-top: 15px;
   }  
 
   .slide1{
@@ -343,13 +345,18 @@
     /* display: flex;
     justify-content: center; */
   }
-/* 
-  .Health bar{
-    background: red;
+
+  #Health {
+    background-color: red;
     height: 15px;
-    width: 100%;
     position: relative;
-  } */
+  }
+
+  #progress {
+    display: flex;
+    justify-content: center;
+  }
+
 /* The dots/bullets/indicators
 .dot {
   cursor: pointer;

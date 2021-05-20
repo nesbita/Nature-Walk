@@ -338,7 +338,7 @@
 
     function subtractHealth10() {   
         if (beenClicked===false) {
-            if (health.value<=0) {
+            if (health.value<=10) {
                 alert("Game Over") 
             }
             health.value -=10;
