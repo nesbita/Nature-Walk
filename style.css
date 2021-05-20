@@ -332,12 +332,24 @@
   }
 
   .Scenario {
-    background-color: yellow;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHKB3YeySPrZ-Y4fbzfHl9zgi4Hfjv3xcWkg&usqp=CAU");
+    height: 475px;
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover; 
     color: plum;
     /* display: flex;
     justify-content: center; */
   }
-
+/* 
+  .Health bar{
+    background: red;
+    height: 15px;
+    width: 100%;
+    position: relative;
+  } */
 /* The dots/bullets/indicators
 .dot {
   cursor: pointer;
