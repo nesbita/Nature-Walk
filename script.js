@@ -339,7 +339,7 @@
     function subtractHealth10() {   
         if (beenClicked===false) {
             if (health.value<=10) {
-                alert("Game Over") 
+                alert("YOU DIDN'T MAKE IT!  Game Over") 
             }
             health.value -=10;
             wrongContainer10.firstElementChild.style.transform="rotateY(180deg) scale(-1, 1)"
