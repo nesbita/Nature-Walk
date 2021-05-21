@@ -1,4 +1,4 @@
-
+    let health = document.getElementById("Health");
     let slideIndex = 1;
 
     let beenClicked = false
@@ -22,6 +22,9 @@
     // console.log("SLIDES WITH CLASS NAME GSLIDE", slides)
     // const slideArray = Array.from(slides)
     // console.log("ARRAY OF SLIDES", slideArray)
+        if (health.value <=10) {
+            console.log("you died")
+        }
         if (n > slides.length) {slideIndex=1}
         if (n < 1) {slideIndex=slides.length}
         for (let i=0; i < slides.length; i++) {
@@ -33,7 +36,6 @@
     // setTimeout (showSlides, 2000);
     }
 
-    let health = document.getElementById("Health");
      
     function addHealth1() {
         if (beenClicked===false) {
@@ -340,6 +342,7 @@
         if (beenClicked===false) {
             if (health.value<=10) {
                 alert("YOU DIDN'T MAKE IT!  Game Over") 
+                location.reload()
             }
             health.value -=10;
             wrongContainer10.firstElementChild.style.transform="rotateY(180deg) scale(-1, 1)"
